@@ -1,0 +1,60 @@
+.header{
+    position: fixed;
+    top:0; left:0; right:0;
+    z-index: 999;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 9%;
+}
+
+.hearder .logo{
+    font-size: large;
+    color: var(--black);
+    font-weight: bolder;
+}
+
+.header .logo span{
+    font-size: xx-large;
+    color: var(--black);
+}
+.header .logo sub{
+    font-size: xx-large;
+    color: var(--yellow);
+}
+
+.header .navbar a{
+    font-size: 2.7rem;
+    margin: 0 1rem;
+    color: var(--black);
+}
+
+.header .navbar a:hover{
+    color:var(--yellow);
+}
+
+.header .btn{
+    margin-top: 0;
+}
+
+.header #login-btn i{
+    font-size: 2.5rem;
+    color:var(--light-color);
+    cursor:pointer;
+    display: none;
+}
+
+#menu-btn{
+    font-size: 2.5rem;
+    color:var(--light-color);
+    cursor:pointer;
+    display:none;
+}
+
+
+
+.header.active{
+    box-shadow: var(--box-shadow);
+    padding: 2rem 9%;
+}
